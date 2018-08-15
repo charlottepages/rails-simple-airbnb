@@ -1,0 +1,18 @@
+<div class="banner" style="background-image: url('https://source.unsplash.com/random');"></div>
+
+<div class="grey-boxes-container">
+  <div class="grey-box">
+    <h1><%= @flat.name %></h1>
+    <p><%= @flat.address %></p>
+  </div>
+  <div class="grey-box">
+    <h2>A bit more about this flat:</h2>
+    <p><%= @flat.description %></p>
+  </div>
+  <div class="grey-box">
+    <h2>Details:</h2>
+    <i class="fa fa-users" aria-hidden="true"></i><%= @flat.number_of_guests %>
+    <i class="fa fa-eur" aria-hidden="true"></i><%= @flat.price_per_night %>
+  </div>
+</div>
+
